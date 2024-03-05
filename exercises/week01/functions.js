@@ -30,3 +30,10 @@ console.log(isGreaterThan(10, 5));
 setTimeout(() => {
     console.log("3 seconds have elapsed!")
 }, 3000);
+
+//combined length//
+let combinedLength = (str1, str2) => {
+    return str1.length + str2.length;
+};
+
+console.log(combinedLength("hi", "you") + 10);
